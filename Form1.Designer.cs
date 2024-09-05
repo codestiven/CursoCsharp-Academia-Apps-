@@ -33,10 +33,10 @@
             // 
             // lblHolamundo
             // 
-            this.lblHolamundo.BackColor = System.Drawing.Color.Gold;
+            this.lblHolamundo.BackColor = System.Drawing.Color.Khaki;
             this.lblHolamundo.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblHolamundo.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.World, ((byte)(0)));
-            this.lblHolamundo.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lblHolamundo.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.lblHolamundo.Location = new System.Drawing.Point(0, 0);
             this.lblHolamundo.Name = "lblHolamundo";
             this.lblHolamundo.Size = new System.Drawing.Size(800, 450);
@@ -53,6 +53,7 @@
             this.Controls.Add(this.lblHolamundo);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.ResumeLayout(false);
 
         }
